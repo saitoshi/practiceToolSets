@@ -44,3 +44,4 @@ function deviceDetail() {
     return deviceType
 }
 deviceDetail();
+
