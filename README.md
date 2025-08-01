@@ -29,3 +29,6 @@ The following function retrieves the device detail of the user and returns it.
  * @return deviceType 
  */
 ```
+
+# Airline Company Management
+A folder containing function written to help meet tasks requested by an Airline Company.  
