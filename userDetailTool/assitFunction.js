@@ -43,5 +43,23 @@ function deviceDetail() {
     console.log(deviceType)
     return deviceType
 }
-deviceDetail();
+
+/**
+ * @name getSitePath 
+ * @desc The function gets the subdirectory - the path after the domain 
+ * @webPath - The path after the domain of the client site 
+ * @return webPath
+ */
+function getSitePath() {
+    const currentURL = window.location.href;
+    const clientDomain = '';
+    return currentURL.split(clientDomain)[1];
+}
+
+/**
+ * @name getSiteCountry 
+ * @desc The function gets the user's country 
+ * 
+ */
+
 
